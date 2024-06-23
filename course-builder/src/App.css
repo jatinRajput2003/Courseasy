@@ -1,0 +1,21 @@
+.app {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #f0f2f5;
+}
+
+.app button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.app button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}

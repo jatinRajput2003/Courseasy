@@ -1,0 +1,26 @@
+.add-module-form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-module-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-module-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-module-form button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,46 @@
+.add-resource-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.add-resource-form:hover {
+  transform: scale(1.02);
+}
+
+.add-resource-form input,
+.add-resource-form select,
+.add-resource-form button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.add-resource-form input:focus,
+.add-resource-form select:focus,
+.add-resource-form button:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.add-resource-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-resource-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
